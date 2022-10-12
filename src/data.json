@@ -1,0 +1,25 @@
+[
+  {
+    "term": "BBP",
+    "description": "A Bug Bounty Program is an offering by organizations for individuals to receive recognition and compensation for reporting security related bugs.",
+    "source": {}
+  },
+  {
+    "term": "Bug bar",
+    "description": "A bug bar is a threshold for security vulnerabilities which sets the guideline for taking decisions on bugs.",
+    "source": {
+      "url": "https://softwareengineering.stackexchange.com/questions/232425/what-is-the-process-of-creating-a-bug-bar",
+      "title": "Stack Exchage",
+      "logo": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=4f32ecc8f43d"
+    }
+  },
+  {
+    "term": "Bug bar",
+    "description": "A bug bar is a threshold for security vulnerabilities which sets the guideline for taking decisions on bugs.",
+    "source": {
+      "url": "https://learn.microsoft.com/en-us/security/sdl/security-bug-bar-sample",
+      "title": "Microsoft",
+      "logo": "https://www.microsoft.com/favicon.ico"
+    }
+  }
+]

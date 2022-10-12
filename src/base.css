@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.wrapper {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1140px) {
+  .wrapper {
+    max-width: 100%;
+    padding: 0 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .wrapper {
+    padding: 0 20px;
+  }
+}
