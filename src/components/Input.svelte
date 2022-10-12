@@ -19,5 +19,12 @@
   input {
     width: 100%;
     margin-bottom: 20px;
+    padding: 10px;
+  }
+
+  input:focus {
+    outline-width: 2px;
+    outline-style: solid;
+    outline-color: rgb(55 24 157);
   }
 </style>
