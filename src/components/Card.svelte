@@ -1,4 +1,5 @@
 <script>
+  import { fade, slide } from "svelte/transition";
   export let item;
 
   let url = "";
@@ -20,7 +21,7 @@
   }
 </script>
 
-<div class="card">
+<div class="card" in:slide out:fade>
   <h2>{item.term}</h2>
   <p>{item.description}</p>
   <div class="citation">
