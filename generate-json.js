@@ -3,7 +3,7 @@ import { promises } from "fs";
 import { posix, resolve, sep } from "path";
 const { readdir, readFile, writeFile } = promises;
 
-const dir = "S:\\Projects\\openssf\\openssf-glossary-md\\terminology\\glossary";
+const dir = "./glossary";
 const outputFilePath = "src/data.json";
 
 /**

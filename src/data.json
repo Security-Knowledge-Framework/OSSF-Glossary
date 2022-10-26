@@ -1,0 +1,384 @@
+{
+  "categories": [
+    {
+      "name": "Groups and Organizations",
+      "id": "0b7fe1a2-5b4e-486d-8719-bdcbc6468e86",
+      "parent": null
+    },
+    {
+      "name": "Process and Management",
+      "id": "14bcc70d-06c6-40bb-b0b4-82b2133f03a2",
+      "parent": null
+    },
+    {
+      "name": "Application Lifecycle Management",
+      "id": "f93a29ce-cf8f-4cac-a7af-ac657ac81618",
+      "parent": "14bcc70d-06c6-40bb-b0b4-82b2133f03a2"
+    },
+    {
+      "name": "Personas",
+      "id": "7a60bfaa-ce60-4243-8f26-aa570d4fbe46",
+      "parent": "14bcc70d-06c6-40bb-b0b4-82b2133f03a2"
+    },
+    {
+      "name": "Tools",
+      "id": "b35198fc-2f51-422b-858e-bf1344e7ae12",
+      "parent": "14bcc70d-06c6-40bb-b0b4-82b2133f03a2"
+    },
+    {
+      "name": "Vulnerability Disclosure",
+      "id": "6eadbb94-12f2-433e-8ce9-8cafcdfcc8e4",
+      "parent": "14bcc70d-06c6-40bb-b0b4-82b2133f03a2"
+    }
+  ],
+  "terms": [
+    {
+      "definitions": [
+        {
+          "description": "\nComputer Emergency Readiness Team\n\n",
+          "source": {
+            "name": "NIST",
+            "url": "https://csrc.nist.gov/glossary/term/cert"
+          }
+        },
+        {
+          "description": "\nA computer emergency response team (CERT) is a group of experts who respond to cybersecurity incidents. These teams deal with the evolution of malware, viruses and other cyberattacks.\n\n",
+          "source": {
+            "name": "Techopedia",
+            "url": "https://www.techopedia.com/definition/31003/computer-emergency-response-team-cert"
+          }
+        },
+        {
+          "description": "\nA computer emergency response team (CERT) is an expert group that handles computer security incidents. Alternative names for such groups include computer emergency readiness team and computer security incident response team (CSIRT). A more modern representation of the CSIRT acronym is Cyber Security Incident Response Team.\n\n",
+          "source": {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Computer_emergency_response_team"
+          }
+        }
+      ],
+      "term": "CERT",
+      "category": "0b7fe1a2-5b4e-486d-8719-bdcbc6468e86"
+    },
+    {
+      "definitions": [
+        {
+          "description": "\nCNAs are software vendors, open source projects, coordination centers, bug bounty service providers, hosted services, and research groups authorized by the CVE Program to assign CVE IDs to vulnerabilities and publish CVE Records within their own specific scopes of coverage.\n\n",
+          "source": {
+            "name": "CVE",
+            "url": "https://www.cve.org/ProgramOrganization/CNAs"
+          }
+        },
+        {
+          "description": "\nCVE Naming Authorities\n\n",
+          "source": {
+            "name": "NIST",
+            "url": "https://csrc.nist.gov/glossary/term/cna"
+          }
+        }
+      ],
+      "term": "CNA",
+      "category": "0b7fe1a2-5b4e-486d-8719-bdcbc6468e86"
+    },
+    {
+      "definitions": [
+        {
+          "description": "\nA Computer Security Incident Response Team is a capability set up for the purpose of assisting in responding to computer security-related incidents; also called a Computer Incident Response Team (CIRT) or a CIRC (Computer Incident Response Center, Computer Incident Response Capability).\n\n",
+          "source": {
+            "name": "NIST",
+            "url": "https://csrc.nist.gov/glossary/term/computer_security_incident_response_team"
+          }
+        }
+      ],
+      "term": "CSIRT",
+      "category": "0b7fe1a2-5b4e-486d-8719-bdcbc6468e86"
+    },
+    {
+      "definitions": [
+        {
+          "description": "\nMITRE is a non-profit organization established to advance national security in new ways and serve the public interest as an independent adviser. It provides solutions that enhance national security.\n\n",
+          "source": {
+            "name": "MITRE",
+            "url": "https://www.mitre.org/who-we-are"
+          }
+        }
+      ],
+      "term": "Mitre",
+      "category": "0b7fe1a2-5b4e-486d-8719-bdcbc6468e86"
+    },
+    {
+      "definitions": [
+        {
+          "description": "\nThe National Institute of Standards and Technology (NIST) is a part of the U.S. Department of Commerce. it's mission is to promote U.S. innovation and industrial competitiveness by advancing measurement science, standards, and technology in ways that enhance economic security and improve our quality of life.\n\n",
+          "source": {
+            "name": "NIST",
+            "url": "https://www.nist.gov/about-nist"
+          }
+        }
+      ],
+      "term": "NIST",
+      "category": "0b7fe1a2-5b4e-486d-8719-bdcbc6468e86"
+    },
+    {
+      "definitions": [
+        {
+          "description": "\nThe Open Source Security Foundation is a Linux Foundation, cross-industry forum collaborating to improve open source software security.\n\n",
+          "source": {
+            "name": "OSSF",
+            "url": "https://openssf.org/about/faq/#"
+          }
+        }
+      ],
+      "term": "OSSF",
+      "category": "0b7fe1a2-5b4e-486d-8719-bdcbc6468e86"
+    },
+    {
+      "definitions": [
+        {
+          "description": "\nA Product Security Incident Response Team is responsible for identifying, assessing and remediating risks associated with security vulnerabilities within the products of an organization.\n\n",
+          "source": {
+            "name": "NIST",
+            "url": "https://csrc.nist.gov/glossary/term/product_security_incident_response_team"
+          }
+        }
+      ],
+      "term": "PSIRT",
+      "category": "0b7fe1a2-5b4e-486d-8719-bdcbc6468e86"
+    },
+    {
+      "definitions": [
+        {
+          "description": "\nA bug bounty program is a deal offered by many websites, organizations and software developers by which individuals can receive recognition and compensation for reporting bugs, especially those pertaining to security exploits and vulnerabilities.\n\n",
+          "source": {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Bug_bounty_program"
+          }
+        }
+      ],
+      "term": "BBP",
+      "category": "f93a29ce-cf8f-4cac-a7af-ac657ac81618"
+    },
+    {
+      "definitions": [
+        {
+          "description": "\nQuality gates and bug bars are used to establish minimum acceptable levels of security and privacy quality. A project team must negotiate quality gates (for example, all compiler warnings must be triaged and fixed prior to code check-in) for each development phase. A bug bar is a quality gate which is used to define the severity thresholds of security vulnerabilities—for example, no known vulnerabilities in the application with a “critical” or “important” rating at time of release. The bug bar, once set, should never be relaxed.\n\n",
+          "source": {
+            "name": "Stack Exchage",
+            "url": "https://softwareengineering.stackexchange.com/questions/232425/what-is-the-process-of-creating-a-bug-bar"
+          }
+        }
+      ],
+      "term": "Bug Bar",
+      "category": "f93a29ce-cf8f-4cac-a7af-ac657ac81618"
+    },
+    {
+      "definitions": [
+        {
+          "description": "\nIn both computer security and encryption, Proof Of Concept refers to a demonstration that in principle shows how a system may be protected or compromised, without the necessity of building a complete working vehicle for that purpose.\n\n",
+          "source": {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Proof_of_concept#Security"
+          }
+        }
+      ],
+      "term": "POC",
+      "category": "f93a29ce-cf8f-4cac-a7af-ac657ac81618"
+    },
+    {
+      "definitions": [
+        {
+          "description": "\nA Seclist is a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more.\n\n",
+          "source": {
+            "name": "OWASP",
+            "url": "https://owasp.org/www-project-seclists/migrated_content"
+          }
+        }
+      ],
+      "term": "Seclist",
+      "category": "f93a29ce-cf8f-4cac-a7af-ac657ac81618"
+    },
+    {
+      "definitions": [
+        {
+          "description": "\nSecurity policies define the objectives and constraints for the security program. Policies are created at several levels, ranging from organization or corporate policy to specific operational constraints (e.g., remote access). In general, policies provide answers to the questions “what” and “why” without dealing with “how.” Policies are normally stated in terms that are technology-independent.\n\n",
+          "source": {
+            "name": "NIST",
+            "url": "https://csrc.nist.gov/glossary/term/security_policy"
+          }
+        }
+      ],
+      "term": "Security policy",
+      "category": "f93a29ce-cf8f-4cac-a7af-ac657ac81618"
+    },
+    {
+      "definitions": [
+        {
+          "description": "\nAn individual or organization that identifies a potential vulnerability in a product or online service. Note, finders can be researchers, reporters, security companies, hackers, users, governments, or coordinators.\n\n",
+          "source": {
+            "name": "First",
+            "url": "https://www.first.org/standards/frameworks/psirts/psirt_services_framework_v1.1#fnref-3"
+          }
+        }
+      ],
+      "term": "Finder",
+      "category": "7a60bfaa-ce60-4243-8f26-aa570d4fbe46"
+    },
+    {
+      "definitions": [
+        {
+          "description": "\nIn free and open source software and inner source software, a software maintainer or package maintainer is usually one or more people who build source code into a binary package for distribution, commit patches, or organize code in a source repository.\n\n",
+          "source": {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Software_maintainer#:~:text=In%20free%20and%20open%20source,code%20in%20a%20source%20repository"
+          }
+        }
+      ],
+      "term": "Maintainer",
+      "category": "7a60bfaa-ce60-4243-8f26-aa570d4fbe46"
+    },
+    {
+      "definitions": [
+        {
+          "description": "\nOpen-source software (OSS) is computer software that is released under a license in which the copyright holder grants users the rights to use, study, change, and distribute the software and its source code to anyone and for any purpose.\n\n",
+          "source": {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Open-source_software"
+          }
+        }
+      ],
+      "term": "OSS",
+      "category": "7a60bfaa-ce60-4243-8f26-aa570d4fbe46"
+    },
+    {
+      "definitions": [
+        {
+          "description": "\nThe U.S. Government repository of standards-based vulnerability management data, enabling automation of vulnerability management, security measurement, and compliance (e.g., FISMA).\n\n",
+          "source": {
+            "name": "NIST",
+            "url": "https://csrc.nist.gov/glossary/term/nvd"
+          }
+        }
+      ],
+      "term": "NVD",
+      "category": "b35198fc-2f51-422b-858e-bf1344e7ae12"
+    },
+    {
+      "definitions": [
+        {
+          "description": "\nA Coordinated Vulenrability Disclosure coordinates the remediation and public disclosure of newly identified cybersecurity vulnerabilities in products and services with the affected vendor(s).\n\n",
+          "source": {
+            "name": "CISA",
+            "url": "https://www.cisa.gov/coordinated-vulnerability-disclosure-process"
+          }
+        },
+        {
+          "description": "\nCoordinated vulnerability disclosure (CVD) is a process by which vulnerabilities finders work together and share information with the relevant stakeholders such as vendors and ICT infrastructure owners.\n\nCVD ensures that software vulnerabilities get disclosed to the public once the vendor has been able to develop a fix, a patch, or has found a different solution.\n\n",
+          "source": {
+            "name": "ENISA",
+            "url": "https://www.enisa.europa.eu/news/enisa-news/coordinated-vulnerability-disclosure-policies-in-the-eu"
+          }
+        }
+      ],
+      "term": "CVD",
+      "category": "6eadbb94-12f2-433e-8ce9-8cafcdfcc8e4"
+    },
+    {
+      "definitions": [
+        {
+          "description": "\nThe Common Vulnerabilities and Exposures is a dictionary of common names for publicly known information system vulnerabilities.\n\n",
+          "source": {
+            "name": "NIST",
+            "url": "https://csrc.nist.gov/glossary/term/cve"
+          }
+        },
+        {
+          "description": "\nCVE stands for Common Vulnerabilities and Exposures. CVE is a free service that identifies and catalogs known software or firmware vulnerabilities. CVE is not, in itself, an actionable vulnerability database. It is, in effect, a standardized dictionary of publicly known vulnerabilities and exposures. CVE is used by many security-related products and services such as vulnerability management and remediation, intrusion detection, incident management, and more.\n\n",
+          "source": {
+            "name": "Snyk",
+            "url": "https://snyk.io/learn/what-is-cve-vulnerablity/"
+          }
+        }
+      ],
+      "term": "CVE",
+      "category": "6eadbb94-12f2-433e-8ce9-8cafcdfcc8e4"
+    },
+    {
+      "definitions": [
+        {
+          "description": "\nA Common Vulnerability Scoring System is a system for measuring the relative severity of software flaw vulnerabilities.\n\n",
+          "source": {
+            "name": "NIST",
+            "url": "https://csrc.nist.gov/glossary/term/common_vulnerability_scoring_system"
+          }
+        },
+        {
+          "description": "\nThe Common Vulnerability Scoring System (CVSS) is a free and open industry standard for assessing the severity of computer system security vulnerabilities. CVSS attempts to assign severity scores to vulnerabilities, allowing responders to prioritize responses and resources according to threat. Scores are calculated based on a formula that depends on several metrics that approximate ease and impact of an exploit.\n\n",
+          "source": {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Common_Vulnerability_Scoring_System"
+          }
+        }
+      ],
+      "term": "CVSS",
+      "category": "6eadbb94-12f2-433e-8ce9-8cafcdfcc8e4"
+    },
+    {
+      "definitions": [
+        {
+          "description": "\nCommon Weakness Enumeration (CWE™) is a community-developed list of common software and hardware weakness types that have security ramifications. “Weaknesses” are flaws, faults, bugs, or other errors in software or hardware implementation, code, design, or architecture that if left unaddressed could result in systems, networks, or hardware being vulnerable to attack. The CWE List and associated classification taxonomy serve as a language that can be used to identify and describe these weaknesses in terms of CWEs.\n\n",
+          "source": {
+            "name": "Mitre",
+            "url": "https://cwe.mitre.org/about/"
+          }
+        },
+        {
+          "description": "\nThe Common Weakness Enumeration is taxonomy for identifying the common sources of software flaws (e.g., buffer overflows, failure to check input data).\n\n",
+          "source": {
+            "name": "NIST",
+            "url": "https://csrc.nist.gov/glossary/term/common_weakness_enumeration"
+          }
+        }
+      ],
+      "term": "CWE",
+      "category": "6eadbb94-12f2-433e-8ce9-8cafcdfcc8e4"
+    },
+    {
+      "definitions": [
+        {
+          "description": "\nMulti-party coordinated vulnerability disclosure is the process of remediation of vulnerabilities in modern technology systems which can vary and depend on the nature of the vulnerable component. Certain vulnerability handling efforts can require multiple ecosystem players taking action at multiple and interdependent layers within a given information and communication technology (ICT) system. Mitigation can necessitate the engagement of the broad ecosystem of stakeholders to develop, test and deploy mitigations in a manner geared to incentivize adoption by end users.\n\n",
+          "source": {
+            "name": "ISO",
+            "url": "https://www.iso.org/obp/ui/#iso:std:iso-iec:tr:5895:ed-1:v1:en"
+          }
+        }
+      ],
+      "term": "MPCVD",
+      "category": "6eadbb94-12f2-433e-8ce9-8cafcdfcc8e4"
+    },
+    {
+      "definitions": [
+        {
+          "description": "\nA non-disclosure agreement (NDA) is a legal contract or part of a contract between at least two parties that outlines confidential material, knowledge, or information that the parties wish to share with one another for certain purposes, but wish to restrict access to.\n\n",
+          "source": {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Non-disclosure_agreement"
+          }
+        }
+      ],
+      "term": "NDA",
+      "category": "6eadbb94-12f2-433e-8ce9-8cafcdfcc8e4"
+    },
+    {
+      "definitions": [
+        {
+          "description": "\nA Vulnrability Disclosure Policy is a formal policy that describes the activities that can be undertaken in order to find and report vulnerabilities in a legally authorized manner. Such policies enable federal agencies to remediate vulnerabilities before they can be exploited by an adversary – to immense public benefit.\n\n",
+          "source": {
+            "name": "CISA",
+            "url": "https://www.cisa.gov/binding-operational-directive-20-01#fn:2"
+          }
+        }
+      ],
+      "term": "VDP",
+      "category": "6eadbb94-12f2-433e-8ce9-8cafcdfcc8e4"
+    }
+  ]
+}

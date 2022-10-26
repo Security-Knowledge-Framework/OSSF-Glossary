@@ -4,12 +4,17 @@
 
   let term = "";
 
+  let timerId;
   function search() {
-    if (term.trim() === "") return ($result = []);
-    const filtered = data.filter((item) => {
-      return item.term.toLowerCase().includes(term.toLowerCase());
-    });
-    $result = filtered;
+    clearTimeout(timerId);
+    timerId = setTimeout(() => {
+      if (term.trim() === "") return ($result = []);
+      const { terms } = data;
+      const filtered = terms.filter((item) => {
+        return item.term.toLowerCase().includes(term.toLowerCase());
+      });
+      $result = filtered;
+    }, 250);
   }
 </script>
 

@@ -3,8 +3,7 @@
   export let item;
 
   let url = "";
-  let title = "";
-  let logo = "";
+  let name = "";
 
   const { source } = item;
 
@@ -12,13 +11,11 @@
     url = source.url;
   }
 
-  if (Object.hasOwn(source, "title")) {
-    title = source.title;
+  if (Object.hasOwn(source, "name")) {
+    name = source.name;
   }
 
-  if (Object.hasOwn(source, "logo")) {
-    logo = source.logo;
-  }
+  const logo = "http://www.google.com/s2/favicons?domain=" + new URL(url);
 </script>
 
 <div class="card" in:slide out:fade>
@@ -26,10 +23,10 @@
   <p>{item.description}</p>
   <div class="citation">
     {#if logo}
-      <img src={logo} alt={`${title} logo`} />
+      <img src={logo} alt={`${name} logo`} />
     {/if}
-    {#if url && title}
-      <a href={url}>{title}</a>
+    {#if url && name}
+      <a href={url}>{name}</a>
     {/if}
   </div>
 </div>
